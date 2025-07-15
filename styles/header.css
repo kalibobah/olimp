@@ -2,6 +2,7 @@
 {
     padding: 30px 102.28px 109px 102px;
     width: 100%;
+    position: relative;
 }
 .header__container 
 {
@@ -139,7 +140,20 @@
 
 
 }
+.logo__text-static {
+  position: absolute;
+  top: 75px; 
+  left: 102px; 
+  font-size: 14px;
+  color: #535557;
+  pointer-events: none; 
+}
 
+.logo__text-static a {
+  color: #535557;
+  text-decoration: none;
+  pointer-events: auto; 
+}
 
 .header__logo {
   display: flex;
