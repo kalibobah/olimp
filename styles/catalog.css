@@ -1,0 +1,44 @@
+.catalog 
+{
+}
+.catalog__content 
+{
+    padding-left: 19px;
+    padding-right: 19px;
+}
+.catalog__title 
+{
+    color: white;
+    font-size: 35px;
+    line-height: 107%;
+    margin-bottom: 60px;
+}
+.catalog__items
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.catalog__item {
+}
+
+@media (max-width: 780px) 
+
+
+
+{
+
+    .catalog__title
+    {
+        font-size: 24px;
+        margin-bottom: 40px;
+
+    }
+
+    .catalog__items
+    {
+        gap: 20px;
+    }
+
+}

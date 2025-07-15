@@ -1,0 +1,50 @@
+.joinus {
+}
+.joinus__content 
+{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+.joinus__header 
+{
+    display: flex;
+    flex-direction: row;
+    gap: 151px;
+}
+.joinus__title 
+{
+    font-size: 35px;
+    width: 597px;
+
+}
+.joinus__subtitle 
+{
+    font-size: 24px;
+    width: 468px;
+}
+.proposals 
+{
+    
+}
+.proposals__items 
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 30px;
+}
+.proposal 
+{
+    width: 276px;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 30px 25px 50px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 75px;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
+
+}

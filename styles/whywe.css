@@ -1,0 +1,75 @@
+.whywe 
+{
+    width: 100%;
+}
+.whywe__content
+{
+    background-color: white;
+    padding: 64px 146px 80px 101px;
+    display: flex;
+    gap: 33px;
+}
+.whywe__img {
+}
+.whywe__table 
+{
+    margin-top: 41px;
+    color: #192941;
+}
+.whywe__title 
+{
+    font-size: 24px;
+}
+.whywe__subtitle 
+{
+    margin-bottom: 30px;
+}
+.whywe__table-items 
+{
+    display: flex;
+    flex-direction: column;
+}
+.whywe__table-item 
+{
+    display: flex;
+    flex-direction: row;
+    gap: 181px;    
+    padding-top: 19px;
+    padding-bottom: 19px;
+    align-items: center;
+}
+.whywe__table-item-title 
+{
+    width: 116px;
+}
+.whywe__table-item-subtitle {
+}
+
+@media (max-width: 780px) 
+
+
+
+{
+
+    .whywe__content
+    {
+        padding: 32px 20px 40px 20px;
+        flex-direction: column;
+    }
+
+    .whywe__table
+    {
+        margin: 0px;
+    }
+
+    .whywe__table-item
+    {
+        display: block;
+    }
+
+    .whywe__table-item-title
+    {
+        width: 220px;
+    }
+
+}

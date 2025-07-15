@@ -1,0 +1,222 @@
+.option {
+}
+.option__content 
+{
+
+}
+
+.option__top{
+    display: flex;
+    gap: 83px;
+    margin-bottom: 78px;
+}
+
+.option__info 
+{
+    display: flex;
+    flex-direction: column;
+    width: 529px;
+}
+.option__title 
+{
+    font-size: 35px;
+    line-height: 107%;
+    margin-bottom: 50px;
+    color: white;
+
+}
+
+.option__subtitle 
+{
+    font-size: 24px;
+    color: white;
+
+    margin-bottom: 30px;
+}
+.option__list 
+{
+    color: white;
+
+}
+
+.option__list li
+{
+    list-style: inside;
+    font-size: 24px;
+
+}
+
+.option__img {
+}
+.other_options 
+{
+
+}
+.other_option-content 
+{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding-top: 30px; padding-bottom: 30px;
+}
+
+#rentaltop
+{
+    flex-direction: row;
+    gap: 50px;
+    width: 1200px;
+}
+
+#rentalimg
+{
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+#searchimg
+{
+    margin: 0 auto;
+    margin-bottom: 80px;
+    gap: 32px;
+    display: flex;
+}
+#searchtitle
+{
+    width: 100%
+}
+
+.option__items
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 123px;
+}
+
+.option__item
+{
+    width: 380px;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgb(255, 255, 255);
+    padding: 30px 43px;
+    color: white;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
+
+}
+
+.option__item-title
+{
+    margin-bottom: 17px;
+    
+}
+
+.include__punkts
+{
+    color: #fff;
+}
+
+.include__title
+{
+    font-size: 24px;
+    color: #FFf;
+    margin-bottom: 15px;
+}
+
+.option__items-container
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 780px) 
+
+
+{
+
+    .option__top
+    {
+        flex-direction: column;
+        gap: 30px;
+        margin-bottom: 32px;
+    }
+
+    .option__info
+    {
+        width: 320px;
+    }
+
+    .option__title
+    {
+        font-size: 24px;
+        margin-bottom: 30px;
+        margin-top: 25px;
+    }
+
+    .option__subtitle
+    {
+        font-size: 16px;
+    }
+
+    .option__content
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .option__img{
+        width: 100%;
+        height: 273px;
+        align-items: center;
+    }
+
+    .other_option-content
+    {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        align-items: center;
+    }
+
+    #searchrenttop
+    {
+        flex-direction: column-reverse;
+    }
+
+    #rentaltop
+    {
+        gap: 0px;
+        flex-direction: column;
+        width: 320px;
+    }
+
+    .option__list li
+    {
+        font-size: 16px;
+    }
+
+    #rentalimg
+{
+    width: 319px;
+    height: 135px;
+    margin-bottom: 14px;
+}
+
+#searchimg
+{
+    flex-direction: column;
+}
+
+    .option__items img
+    {
+        display: none;
+    }
+
+
+#managment img
+{
+    display: block;
+}
+}

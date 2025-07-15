@@ -1,0 +1,61 @@
+.our-team {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.our-team__top {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  padding-left: 117px;
+  padding-right: 117px;
+}
+
+.our-team__title {
+  font-size: 35px;
+  line-height: 1.2;
+  color: white;
+  width: 242px; 
+}
+
+.our-team__description {
+  font-size: 24px;
+  line-height: 1.5;
+  color: white;
+  max-width: 865px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.our-team__image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (max-width: 780px) 
+
+
+{
+
+  .our-team__top
+  {
+    padding-left: 21px;
+    padding-right: 41px;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+
+  .our-team__title
+  {
+    font-size: 24px;
+  }
+
+  .our-team__description
+  {
+    font-size: 16px;
+  }
+}

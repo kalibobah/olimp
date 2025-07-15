@@ -1,0 +1,43 @@
+.vacancies 
+{
+    margin-top: 75px;
+}
+.vacancies__content 
+{
+    display: flex;
+    flex-direction: row;
+    gap: 53px;
+    color: #ffff;
+}
+.vacancies__block 
+{
+    width: 672px;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 71px 33px 83px 54px;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
+
+}
+.vacancies__title 
+{
+    font-size: 60px;
+    margin-bottom: 37px;
+}
+.vacancies__subtitle 
+{
+    font-size: 24px;
+    margin-bottom: 37px;
+}
+.vacanices__list 
+{
+
+}
+
+.vacanices__list li
+{
+    list-style: inside;
+}
+
+.vacancies__img {
+}

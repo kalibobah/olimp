@@ -1,0 +1,46 @@
+.object_photos 
+{
+    margin-bottom: 33px;
+
+}
+.photos__content 
+{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.additional__photos 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+@media (max-width: 780px) 
+
+{   
+
+    .object_photos
+    {
+        margin-bottom: 40px;
+
+    }
+    .photos__content
+    {
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+    }   
+
+    .additional__photos
+    {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .additional__photos img
+    {
+        width: 87px;
+        height: 81px;
+    }
+}

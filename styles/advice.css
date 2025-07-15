@@ -1,0 +1,68 @@
+.advice 
+{
+    padding: 80px 100px;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+.advice__blue 
+{   
+    padding: 110px 60px;
+    width: 585px;
+    height: 550px;
+    background-color: #192941;
+    color: #fff;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
+
+}
+.advice__title 
+{
+    font-size: 60px;
+    line-height: 107%;
+    margin-bottom: 37px;
+}
+.advice__subtitle 
+{
+    font-size: 24px;
+    line-height: 107%;
+    margin-bottom: 37px;
+}
+.advice__button {
+}
+
+
+@media (max-width: 780px) 
+
+
+{
+
+    .advice
+    {
+        padding: 50px 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .advice__blue
+    {
+        padding: 50px 40px;
+        width: 320px;
+        height: 300px;
+
+    }
+
+    .advice__title
+    {
+        font-size: 24px;
+        margin-bottom: 15px;
+
+    }
+
+    .advice__subtitle
+    {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+}

@@ -1,0 +1,180 @@
+.object__info 
+{
+    margin-bottom: 100px;
+}
+.object__info__content
+{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.object__text 
+{
+    display: flex;
+    flex-direction: column;
+}
+.object__title 
+{
+    font-size: 24px;
+    color: white;
+    margin-bottom: 20px;
+    line-height: 107%;
+}
+.object__subtitle 
+{
+    color: white;
+    margin-bottom: 20px;
+
+}
+.object__price 
+{
+    margin-bottom: 20px;
+    color: #FEE678;
+    font-size: 35px;
+    line-height: 107%;
+}
+.object__data 
+{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 35px;
+    color: white;
+}
+
+.object__data span
+{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+
+}
+.object__descritption 
+{
+    color: #ffff;
+    width: 708px;
+    margin-bottom: 35px;
+
+}
+.object__tech 
+{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+
+}
+.techs 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 51px;
+}
+
+.techs span
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.questions 
+{   
+    align-self: flex-start;
+    width: 452px;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
+
+}
+.questions__content 
+{
+    padding: 30px 38px 36px 37px;
+}
+.questions__title 
+{
+    font-size: 35px;
+    line-height: 107%;
+    margin-bottom: 20px;
+}
+.questions__person 
+{
+    display: flex;
+    flex-direction: row;
+
+}
+.person__info
+{
+padding-top: 28.5px;
+padding-bottom: 28.5px;
+padding-left: 15px;
+padding-right: 9px;
+}
+.person__photo {
+}
+.person__name 
+{
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+.person__occupation {
+}
+
+@media (max-width: 780px) 
+
+{
+    .object__info__content
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+        flex-direction: column;
+    }
+
+    .object__title
+    {
+        width: 318px;
+    }
+
+    .object__descritption
+    {
+        width: 320px;
+    }
+
+    .object__tech
+    {
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
+    .techs
+    {
+        margin: 0;
+    }
+
+    .object__review
+    {
+        margin-top: 30px;
+        
+    }
+    .object__review button
+    {
+        width: 100%;
+        display: flex;
+    justify-content: center;
+    }
+
+    .object__review img {
+    max-width: 100%; /* чтобы изображение не выходило за границы */
+    height: auto;
+  }
+
+  .questions
+  {
+        width: 320px;
+  }
+}
