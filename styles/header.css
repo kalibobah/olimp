@@ -254,9 +254,9 @@
   .header__logo-mob
   {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 4px;
+  flex-direction: column;
+  align-items: flex-start; 
+  gap: 8px; 
   }
 
 
