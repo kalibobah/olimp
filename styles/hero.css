@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-image: url('img/image (26).png'); /* путь к твоему фоновому изображению */
+    background-image: url('/img/image (26).png'); /* путь к твоему фоновому изображению */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

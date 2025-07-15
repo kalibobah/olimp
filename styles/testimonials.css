@@ -50,7 +50,9 @@
     gap: 10px;
     margin-bottom: 10px;
 }
-.testimonial__text {
+.testimonial__text 
+{
+    margin-bottom: 10px;
 }
 .testimonial__link 
 {
@@ -58,6 +60,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 10px;
 
 }
 

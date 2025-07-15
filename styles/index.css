@@ -91,6 +91,7 @@
   position: absolute;
   margin-left: 19px;
   margin-bottom: 8px;
+  top: 190px;
 }
 
 @media (max-width: 780px) 
@@ -101,5 +102,10 @@
     .container
     {
         margin: 0;
+    }
+
+    .pages
+    {
+      top: 160px;
     }
 }
