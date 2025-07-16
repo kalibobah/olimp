@@ -140,7 +140,7 @@
 
 
 }
-.logo__text-static-static-static {
+.logo__text-static {
   position: absolute;
   top: 75px; 
   left: 102px;
@@ -148,7 +148,7 @@
   pointer-events: none; 
 }
 
-.logo__text-static-static-static a {
+.logo__text-static a {
   color: #535557;
   text-decoration: none;
   pointer-events: auto; 
@@ -162,13 +162,13 @@
 }
 
 
-.logo__text-static-static
+.logo__text-static
 {
 
     margin-top: 13px;
 }
 
-.logo__text-static-static a
+.logo__text-static a
 {
     color: #535557;
     text-decoration: none;
@@ -272,7 +272,7 @@
   gap: 8px; 
   }
 
-  .logo__text-static-static-static {
+  .logo__text-static {
   position: absolute;
   top: 35px; 
   left: -2px;
