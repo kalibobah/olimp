@@ -9,6 +9,7 @@
     display: flex;
     gap: 83px;
     margin-bottom: 78px;
+    justify-content: center;
 }
 
 .option__info 
@@ -50,7 +51,7 @@
 }
 .other_options 
 {
-
+    padding-left: 30px;
 }
 .other_option-content 
 {
@@ -225,5 +226,10 @@
 #managment img
 {
     display: block;
+}
+
+.other_options
+{
+    padding-left: 0px;
 }
 }
