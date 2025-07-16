@@ -129,7 +129,14 @@
 .option__items-container
 {
     display: flex;
+    flex-direction: row;
+}
+
+.items__option
+{
+    display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 
 @media (max-width: 780px) 
