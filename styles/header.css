@@ -140,16 +140,15 @@
 
 
 }
-.logo__text-static {
+.logo__text-static-static {
   position: absolute;
   top: 75px; 
   left: 102px;
   font-size: 14px;
-  color: #535557;
   pointer-events: none; 
 }
 
-.logo__text-static a {
+.logo__text-static-static a {
   color: #535557;
   text-decoration: none;
   pointer-events: auto; 
@@ -163,13 +162,13 @@
 }
 
 
-.logo__text
+.logo__text-static
 {
 
     margin-top: 13px;
 }
 
-.logo__text a
+.logo__text-static a
 {
     color: #535557;
     text-decoration: none;
@@ -218,7 +217,6 @@
     {
       display: flex;
       order: 3;
-      margin-bottom: 30px;
     }
 .header__nav {
     display: none;
@@ -259,7 +257,6 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    margin-bottom: 30px;
   }
 
   .header__logo
@@ -275,11 +272,11 @@
   gap: 8px; 
   }
 
-
-  .logo__text
-  {
-  display: flex;
-  justify-self: start;
-  }
-  
+  .logo__text-static-static {
+  position: absolute;
+  top: 35px; 
+  left: -2px;
+  font-size: 14px;
+  pointer-events: none; 
+}
 }

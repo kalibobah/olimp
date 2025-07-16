@@ -3,8 +3,7 @@
 }
 .catalog__content 
 {
-    padding-left: 19px;
-    padding-right: 19px;
+    padding: 0px 19px 100px 19px;
 }
 .catalog__title 
 {
@@ -39,6 +38,11 @@
     .catalog__items
     {
         gap: 20px;
+    }
+
+    .catalog__content
+    {
+        padding-bottom: 50px;
     }
 
 }
