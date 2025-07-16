@@ -1,4 +1,6 @@
-.approach {
+.approach 
+{
+  display: flex;
 }
 .approach__content 
 {
@@ -58,7 +60,6 @@
 }
 @media (max-width: 780px) {
 
-  /* --- approach --- */
   .approach__title {
     font-size: 26px;
     text-align: center;

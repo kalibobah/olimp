@@ -51,7 +51,14 @@
 }
 .other_options 
 {
-    padding-left: 30px;
+    padding-left: 30px; 
+    padding-bottom: 100px;
+}
+
+
+#rentallist li
+{
+    font-size: 16px;
 }
 .other_option-content 
 {
@@ -231,5 +238,6 @@
 .other_options
 {
     padding-left: 0px;
+    padding-bottom: 33px;
 }
 }
