@@ -142,9 +142,9 @@
 
 .items__option
 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
 }
 
 @media (max-width: 780px) 
