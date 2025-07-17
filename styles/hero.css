@@ -1,12 +1,12 @@
 .hero 
 {
-    padding: 0px 161px 329px 161px;
+    padding: 109px 161px 329px 161px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-image: url('/img/image (26).png'); /* путь к твоему фоновому изображению */
+    background-image: url('../img/image (26).png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
