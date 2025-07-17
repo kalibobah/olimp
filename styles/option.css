@@ -121,7 +121,16 @@
     margin-bottom: 17px;
     
 }
+.items__image {
+  flex: 0 0 auto;
+  align-self: center;
+}
 
+.items__image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
 .include__punkts
 {
     color: #fff;
@@ -134,17 +143,20 @@
     margin-bottom: 15px;
 }
 
-.option__items-container
-{
-    display: flex;
-    flex-direction: row;
+.option__items-container {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin-top: 40px;
+  flex-wrap: wrap;
 }
 
 .items__option
 {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  flex: 1 1 0%;
 }
 
 @media (max-width: 780px) 
