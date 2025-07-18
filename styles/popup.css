@@ -21,7 +21,7 @@
     background: rgba(0, 0, 0, 0.5);
 
 }
-.popup__content 
+.popup-content 
 {
   position: relative;
   display: flex;
@@ -36,12 +36,12 @@
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
 }
 
-.popup__form
+.popup-form
 {
   display: flex;
   flex-direction: column;
 }
-.popup__close 
+.close 
 {
     position: absolute;
     top: 10px;
