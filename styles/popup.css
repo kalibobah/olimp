@@ -62,6 +62,11 @@
     margin-bottom: 37px;
 }
 
+.popup__image
+{
+  display: flex;
+}
+
 form {
   display: flex;
   flex-direction: column;
