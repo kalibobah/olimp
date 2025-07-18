@@ -158,7 +158,10 @@
   gap: 24px;
   flex: 1 1 0%;
 }
-
+.option__law-include
+{
+    margin-top: 214px;
+}
 @media (max-width: 780px) 
 
 
