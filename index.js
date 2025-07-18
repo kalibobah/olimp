@@ -5,13 +5,13 @@ const overlay = document.getElementById('popupOverlay');
 
 
 openBtn.addEventListener('click', () => {
-  popup.style.display = 'flex';
+  popupOverlay.style.display = 'block';
 });
 
 closeBtn.addEventListener('click', () => {
-  popup.style.display = 'none';
+  popupOverlay.style.display = 'none';
 });
 
 overlay.addEventListener('click', () => {
-  popup.style.display = 'none';
+  popupOverlay.style.display = 'none';
 });
