@@ -2,7 +2,7 @@
 }
 .option__content 
 {
-
+    max-width: 1300px;
 }
 
 .option__top{
@@ -20,10 +20,9 @@
 }
 .option__title 
 {
-    font-size: 35px;
-    line-height: 107%;
-    margin-bottom: 50px;
-    color: white;
+    font-size: 24px;
+  margin-bottom: 40px;
+  max-width: 300px;
 
 }
 
@@ -96,40 +95,42 @@
 
 .option__items
 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    gap: 30px;
-    margin-bottom: 123px;
+    padding: 60px 20px;
+  color: white;
 }
 
 .option__item
 {
-    width: 380px;
+    border: 1px solid #fff;
   border-radius: 12px;
-  overflow: hidden;
-  border: 1px solid rgb(255, 255, 255);
-    padding: 30px 43px;
-    color: white;
-  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
+  padding: 20px;
+  min-height: 130px;
 
 }
 
 .option__item-title
 {
-    margin-bottom: 17px;
+    font-size: 16px;
+  margin-bottom: 10px;
     
 }
+
+.option__item-subtitle {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
 .items__image {
-  flex: 0 0 auto;
-  align-self: center;
+ flex: 0 0 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .items__image img {
   max-width: 100%;
   height: auto;
-  border-radius: 12px;
+  border-radius: 8px;
 }
 .include__punkts
 {
@@ -145,18 +146,18 @@
 
 .option__items-container {
   display: flex;
-  flex-direction: row;
-  gap: 40px;
-  margin-top: 40px;
   flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
 }
 
 .items__option
 {
     display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 24px;
-  flex: 1 1 0%;
+  gap: 20px 40px;
+  flex: 1;
+  max-width: 60%;
 }
 .option__law-include
 {
