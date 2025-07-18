@@ -26,13 +26,11 @@
   position: relative;
   display: flex;
   flex-direction: row;
-  background: #0D1B39;
   color: white;
   margin: 100px auto;
   padding: 40px 30px;
   border-radius: 10px;
   max-width: 1285px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
 }
 
 .popup-form
