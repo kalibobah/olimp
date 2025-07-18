@@ -32,7 +32,6 @@
   padding: 40px 30px;
   border-radius: 10px;
   max-width: 1285px;
-  text-align: center;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
 }
 
@@ -40,6 +39,9 @@
 {
   display: flex;
   flex-direction: column;
+  width: 383px;
+  height: 467px;
+
 }
 .close 
 {
@@ -64,7 +66,8 @@
 
 .popup__image
 {
-  display: flex;
+    width: 585px;
+    height: 550px;
 }
 
 form {
