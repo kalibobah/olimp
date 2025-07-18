@@ -121,9 +121,8 @@
 }
 
 .items__image {
- flex: 0 0 35%;
-  display: flex;
-  justify-content: center;
+    flex: 0 0 35%;
+    display: flex;
 }
 
 .items__image img {
@@ -146,7 +145,6 @@
 .option__items-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   gap: 40px;
 }
 
